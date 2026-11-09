@@ -1,0 +1,71 @@
+.restaurant-id {
+  position: relative;
+  width: 100%;
+  max-width: 490px;
+  margin: 0;
+  border-radius: 15px;
+  background: #ffffff;
+  overflow: hidden;
+ }
+
+.restaurant-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 490 / 182;
+  object-fit: cover;
+}
+
+.like-icon {
+  display: block;
+  bottom: 25px;
+  width: 22px;
+  height: 21px;
+}
+
+.like-button {
+  border: 0;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  margin-right: 1.5rem;
+  flex: 0 0 auto;
+}
+
+.nouveau-icon {
+  position: absolute;
+  top: 13px;
+  right: 18px;
+  width: 115px;
+  height: 29px;
+}
+
+.restaurant-name {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-left:18.74px;
+  text-align: left;
+ }
+
+.restaurant-location {
+  font-size: 17px;
+  font-weight: 300;
+  margin-top: 0px;
+  margin-bottom: 1rem;
+  margin-left:18.74px;
+}
+
+.restaurant-title {
+  display: flex;
+  justify-content: space-between ;
+  gap: 12px;
+  width: 100%;
+}
+
+.restaurant-name-location {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+ }

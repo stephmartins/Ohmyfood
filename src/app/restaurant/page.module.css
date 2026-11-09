@@ -1,0 +1,99 @@
+.restaurant-image {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+  aspect-ratio: 1440 / 383;
+}
+
+.restaurant-menu {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
+.restaurant-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: min(73.2639vw, 1055px);
+  padding : 20px 0 40px;
+  margin: clamp(-70px, 2vw, -50px) 0 -30px;
+  background-color: #F6F6F6;
+  border-radius: 40px;
+}
+
+.restaurant-name-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  gap: 12px;
+  margin-top: clamp(28px, 2vw, 35px);
+}
+
+.restaurant-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 100%;
+  margin-top: clamp(28px, 2vw, 35px);
+}
+
+.restaurant-name{
+  font-family: var(--font-shrikhand), sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.like-button {
+  border: 0;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+ }
+
+.commander-button {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: auto;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  padding: 10px;
+  appearance: none;
+}
+
+.commander-button img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.menu-category {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-top: 20px;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+}
+
+.menu-category-image {
+  align-self: flex-start;  
+}

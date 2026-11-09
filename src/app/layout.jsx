@@ -7,7 +7,14 @@ import styles from "./layout.module.css";
 import Header from "@/components/Header/Header";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUtensils, faHandshakeAngle } from "@fortawesome/free-solid-svg-icons";
+import { Roboto } from "next/font/google";
 
+const roboto = Roboto({
+  weight: ["400", "500", "700"],
+  subsets: ["latin"],
+  variable: "--font-roboto",
+});
+ 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -32,7 +39,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
-      <body className={`${geistSans.variable} ${geistMono.variable} ${shrikhand.variable}`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} ${shrikhand.variable} ${roboto.variable}`}>
         <div className={styles.page}>
           <Header />
 
